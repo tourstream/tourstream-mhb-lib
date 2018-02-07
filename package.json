@@ -4,7 +4,7 @@
   "description": "Library for Meetingpoint Hotel Brand pages",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Warning: no test specified\" && exit 0",
     "build": "babel lib -d build",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/tourstream/tourstream-mhb-lib.git"
+    "url": "git+ssh://git@github.com:tourstream/tourstream-mhb-lib.git"
   },
   "authors": [
     "Daniel Rieckhof <daniel.riekhof@fti.de>",
     "André Düwel <andre.duewel@fti.de>"
   ],
   "license": "ISC",
-  "homepage": "https://bitbucket.org/tourstream/tourstream-mhb-lib#readme",
+  "homepage": "https://github.com/tourstream/tourstream-mhb-lib",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
