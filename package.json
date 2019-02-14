@@ -1,6 +1,6 @@
 {
   "name": "tourstream-mhb-lib",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Library for Meetingpoint Hotel Brand pages",
   "main": "build/index.js",
   "scripts": {
