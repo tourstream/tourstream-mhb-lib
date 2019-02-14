@@ -1,5 +1,5 @@
 {
-  "name": "tourstream-mhb-lib",
+  "name": "@tourstream/tourstream-mhb-lib",
   "version": "1.2.7",
   "description": "Library for Meetingpoint Hotel Brand pages",
   "main": "build/index.js",
@@ -16,10 +16,12 @@
     "url": "git+ssh://git@github.com:tourstream/tourstream-mhb-lib.git"
   },
   "authors": [
-    "Daniel Rieckhof <daniel.riekhof@fti.de>",
-    "André Düwel <andre.duewel@fti.de>"
+    "Codebenders <Codebenders@tourstream.eu>"
   ],
-  "license": "ISC",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/tourstream/tourstream-mhb-lib",
   "dependencies": {
     "flux": "^3.1.3",
