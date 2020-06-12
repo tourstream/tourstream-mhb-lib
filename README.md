@@ -44,6 +44,9 @@ Run Linting tests:
 npm run lint
 ```
 
+***Note:*** The Linting tests will throw lots of errors and warnings. Maybe you should ignore them ;-) 
+
+
 ### Local Testing
 Since the `npm link` is currently not working, you can use the following work around:
 - Build the package
